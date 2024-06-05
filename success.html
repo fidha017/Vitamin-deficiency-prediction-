@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h2>Implementation of Satellite Image CLassification with Clusters </h2>
+    </div>
+</div>
+<div class="container">
+    <table>
+        <tr>
+            <td>
+                <img class="plot" src="{{ url_for('static', filename='images/orig_image.jpg') }}" alt="">
+            </td>
+            <td colspan="2">
+                <br/>
+            </td>
+            <td>
+                <img class="plot" src="{{ url_for('static', filename='images/em_image.jpg') }}" alt="">         
+            </td>
+        </tr>
+    </table>
+
+    </div>
+
+<!-- ======= Cta Section ======= -->
+                  <center>   <a class="cta-btn" href="index">Next</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+			    </div>
+
+{% endblock content %}
